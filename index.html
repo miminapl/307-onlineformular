@@ -24,10 +24,13 @@
         </div>
     </nav>
     <article>
+        <div class="ZurueckButtonContainer">
+            <button></button>
+        </div>
         <div class="LoginContainer">
             <div class="FormContainer">
                 <h2>Willkommen zurück!</h2>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" id="LoginForm">
                     <label for="idUsername">Benutzername</label><br>
                     <input id="idUsername" name="username" type="text" required><br>
                     <label for="idPassword">Passwort</label><br>
@@ -38,6 +41,10 @@
                     <div class="HrHalf">
                         <hr>
                     </div>
+                    <form>
+                        <input id="SaveLoginData" name="savelogindata" type="checkbox"  checked>
+                        <label for="SaveLoginData">remember me</label>
+                    </form>
                 </form>
             </div>
             <div class="IllustrationContainer">
