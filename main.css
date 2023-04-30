@@ -72,6 +72,9 @@ h2{
     box-shadow: 2px 4px 12px #abaaaa;
 }
 .IllustrationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 48%;
 }
 .IllustrationContainer img{
