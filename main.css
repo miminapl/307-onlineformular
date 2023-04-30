@@ -124,10 +124,11 @@ input:focus{
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    height: 55%;
    
 }
 .IllustrationContainer img{
-    width: 100%;
+    width: 85%;
     margin-left: -20%;
 }
 .BurgermenuContainer, .LogoContainer{
