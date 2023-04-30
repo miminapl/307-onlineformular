@@ -2,9 +2,61 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 62.5%;
+}
 body{
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
 }
 hr{
-    border: 2px solid #55BC7F;
+    border: 1px solid #55BC7F;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: none;
+    width: 100vw;
+    height: 7em;
+    box-shadow: 2px 1px 8px #abaaaa;
+    padding: 0 2em;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 700;
+    
+}
+h2{
+    font-size: 3em;
+    color:#193D61;
+}
+
+#Logo{
+    width: 3em;
+}
+#BurgerMenu{
+    width: 2em;
+}
+.LoginContainer{
+    display: flex;
+    flex-direction: row;
+}
+.BurgermenuContainer, .LogoContainer{
+    width:16.66%;
+}
+.TitleNav{
+    width: 66.66%;
+}
+.LogoContainer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.ButtonLogin{
+    background-color:#193D61;
+    color: white;
+}
+.FooterText{
+    color:#636363;
 }
