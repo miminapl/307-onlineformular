@@ -12,6 +12,10 @@ body{
 hr{
     border: 1px solid #55BC7F;
 }
+.HrHalf{
+    width: 50%;
+    margin-top: 1rem;
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -23,12 +27,20 @@ nav{
     padding: 0 2em;
     box-sizing: border-box;
 }
+article{
+    padding: 5rem;
+    box-sizing: border-box;
+}
+footer{
+    padding: 0 3rem;
+    box-sizing: border-box;
+}
 h1{
     font-weight: 700;
     
 }
 h2{
-    font-size: 3em;
+    font-size: 4rem;
     color:#193D61;
 }
 
@@ -38,9 +50,21 @@ h2{
 #BurgerMenu{
     width: 2em;
 }
+.Illustration{
+    width: 50%;
+}
 .LoginContainer{
     display: flex;
     flex-direction: row;
+}
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color:red;
+    border-radius: 0.4rem;
+    box-shadow: 2px 4px 12px #abaaaa;
+
 }
 .BurgermenuContainer, .LogoContainer{
     width:16.66%;
@@ -54,9 +78,25 @@ h2{
 
 }
 .ButtonLogin{
+    box-sizing: border-box;
     background-color:#193D61;
     color: white;
+    border: 1px solid #193D61;
+    border-radius: 0.2rem;
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.5rem;
 }
 .FooterText{
     color:#636363;
+    margin-left: 16.66%;
+    padding-top: 1rem;
+
+}
+#idUsername, #idPassword {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #636363;
+    border-radius: 0.2rem;
+
 }
