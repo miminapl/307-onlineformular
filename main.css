@@ -27,16 +27,19 @@ nav{
     align-items: center;
     background-color: none;
     width: 100vw;
-    height: 7em;
+    height: 12vh;
     box-shadow: 2px 1px 8px #abaaaa;
     padding: 0 2em;
     box-sizing: border-box;
 }
 article{
+    width: 100vw;
+    height: 78vh;
     padding: 3rem;
     box-sizing: border-box;
 }
 footer{
+    height: 9vh;
     padding: 0 3rem;
     box-sizing: border-box;
 }
@@ -48,6 +51,7 @@ h2{
     font-size: 4rem;
     color:#193D61;
     padding-bottom: 2rem;
+    box-sizing: border-box;
 }
 
 #Logo{
@@ -68,13 +72,13 @@ h2{
 .FormContainer{
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
     width: 48%;
     margin-left: -4rem;
     padding: 5rem 4rem;
     background-color:red;
     border-radius: 0.4rem;
     box-shadow: 2px 4px 12px #abaaaa;
+    box-sizing: border-box;
 }
 .IllustrationContainer{
     display: flex;
@@ -110,6 +114,7 @@ h2{
     color:#636363;
     margin-left: 16.66%;
     padding-top: 1rem;
+    box-sizing: border-box;
 
 }
 #idUsername, #idPassword {
