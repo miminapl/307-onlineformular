@@ -29,25 +29,31 @@ nav{
     width: 100vw;
     height: 12vh;
     box-shadow: 2px 1px 8px #abaaaa;
-    padding: 0 2em;
+    padding: 0 3rem;
     box-sizing: border-box;
 }
 article{
-    width: 100vw;
+    background-image: url('media/green-background.svg');
+    background-size: cover;
+    margin-left: 10%;
+    width: 90vw;
     height: 78vh;
     padding: 3rem;
     box-sizing: border-box;
 }
+
 footer{
     height: 9vh;
     padding: 0 3rem;
     box-sizing: border-box;
 }
 h1{
+    margin-left: 0.6rem;;
     font-weight: 700;
     
 }
 h2{
+    margin-left: 0.8rem;
     font-size: 4rem;
     color:#193D61;
     padding-bottom: 2rem;
@@ -60,34 +66,69 @@ h2{
 #BurgerMenu{
     width: 2em;
 }
+input{
+    box-sizing: border-box;
+    border-color: #636363;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 1.7rem 1rem;
+}
+input:focus{
+    border: 2px solid #55BC7F;
+}
+.BackButton{
+    cursor: pointer;
+    border: none;
+    background:none;
+    color:#55BC7F;
+    padding: 0.2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    
+}
+/*
+.BackButton::before{
+    display: inline-flex;
+    content:'';
+    background-image: url('media/arrow-small-left.svg');
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+}
+*/
 .Illustration{
     width: 50%;
 }
 .LoginContainer{
-    margin: 0 16.66%;
+    margin: -4rem 5% 0 6.66%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .FormContainer{
     display: flex;
     flex-direction: column;
-    width: 48%;
+    width: 38%;
+    height: 55%;
     margin-left: -4rem;
     padding: 5rem 4rem;
     background-color:white;
     border-radius: 0.4rem;
-    box-shadow: 2px 4px 12px #abaaaa;
+    box-shadow: 2px 4px 12px #377951;
     box-sizing: border-box;
 }
 .IllustrationContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 48%;
+    width: 50%;
+   
 }
 .IllustrationContainer img{
     width: 100%;
+    margin-left: -20%;
 }
 .BurgermenuContainer, .LogoContainer{
     width:16.66%;
@@ -101,6 +142,7 @@ h2{
 
 }
 .ButtonLogin{
+    cursor: pointer;
     box-sizing: border-box;
     background-color:#193D61;
     color: white;
