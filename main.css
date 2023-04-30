@@ -28,7 +28,7 @@ nav{
     box-sizing: border-box;
 }
 article{
-    padding: 5rem;
+    padding: 3rem;
     box-sizing: border-box;
 }
 footer{
@@ -42,6 +42,7 @@ h1{
 h2{
     font-size: 4rem;
     color:#193D61;
+    padding-bottom: 2rem;
 }
 
 #Logo{
@@ -54,17 +55,27 @@ h2{
     width: 50%;
 }
 .LoginContainer{
+    margin: 0 16.66%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .FormContainer{
     display: flex;
     flex-direction: column;
-    padding: 4rem;
+    box-sizing: border-box;
+    width: 48%;
+    margin-left: -4rem;
+    padding: 5rem 4rem;
     background-color:red;
     border-radius: 0.4rem;
     box-shadow: 2px 4px 12px #abaaaa;
-
+}
+.IllustrationContainer{
+    width: 48%;
+}
+.IllustrationContainer img{
+    width: 100%;
 }
 .BurgermenuContainer, .LogoContainer{
     width:16.66%;
@@ -98,5 +109,4 @@ h2{
     height: 3rem;
     border: 1px solid #636363;
     border-radius: 0.2rem;
-
 }
