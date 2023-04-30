@@ -12,9 +12,14 @@ body{
 hr{
     border: 1px solid #55BC7F;
 }
-.HrHalf{
+.HrHalf hr{
     width: 50%;
     margin-top: 1rem;
+}
+.HrHalf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 nav{
     display: flex;
