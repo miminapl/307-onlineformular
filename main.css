@@ -33,6 +33,7 @@ nav{
     box-sizing: border-box;
 }
 article{
+    margin-top: -2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +42,7 @@ article{
     margin-left: 10%;
     width: 90vw;
     height: 78vh;
-    padding: 3rem;
+    padding: 3rem 0 3rem 3rem;
     box-sizing: border-box;
 }
 
@@ -64,7 +65,7 @@ h2{
 }
 
 #Logo{
-    width: 3em;
+    width: 15%;
 }
 #BurgerMenu{
     width: 2em;
