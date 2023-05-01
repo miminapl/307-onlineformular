@@ -1,0 +1,160 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    border: 1px solid #55BC7F;
+}
+.HrHalf hr{
+    width: 50%;
+    margin-top: 2rem;
+}
+.HrHalf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: none;
+    width: 100vw;
+    height: 12vh;
+    box-shadow: 2px 1px 8px #abaaaa;
+    padding: 0 3rem;
+    box-sizing: border-box;
+}
+article{
+    margin-top: -2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('media/green-background.svg');
+    background-size: cover;
+    margin-left: 10%;
+    width: 90vw;
+    height: 78vh;
+    padding: 3rem 0 3rem 3rem;
+    box-sizing: border-box;
+}
+
+footer{
+    height: 9vh;
+    padding: 0 3rem;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 0.6rem;;
+    font-weight: 700;
+    
+}
+h2{
+    margin-left: 0.8rem;
+    font-size: 4.5rem;
+    color:#193D61;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+#Logo{
+    width: 15%;
+}
+#BurgerMenu{
+    width: 2em;
+}
+
+input{
+    box-sizing: border-box;
+    border-color: #636363;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1.8rem 1rem;
+}
+input:focus{
+    border: 2px solid #55BC7F;
+}
+.LabelText{
+    font-size: 1.8rem;
+    margin-left: 1.1rem;
+    line-height: 4rem;
+}
+.LabelTextCheckbox{
+    margin-left: 1.1rem;
+    line-height: 3.5rem;
+}
+
+.LoginContainer{
+    margin: 0 0 0 6.66%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: -5.5rem;
+    padding: 5.5rem;
+    background-color:white;
+    border-radius: 0.4rem;
+    box-shadow: 2px 4px 12px #377951;
+    box-sizing: border-box;
+}
+.IllustrationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+   
+}
+.IllustrationContainer img{
+    width: 90%;
+}
+.BurgermenuContainer, .LogoContainer{
+    width:16.66%;
+}
+.TitleNav{
+    width: 66.66%;
+}
+.LogoContainer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.ButtonLogin{
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color:#193D61;
+    color: white;
+    border: 1px solid #193D61;
+    border-radius: 0.2rem;
+    width: 100%;
+    height: 4rem;
+    margin-top: 1.5rem;
+    font-family:'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.FooterText{
+    color:#636363;
+    margin-left: 16.66%;
+    padding-top: 1rem;
+    box-sizing: border-box;
+
+}
+#idUsername, #idPassword {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #636363;
+    border-radius: 0.2rem;
+}
