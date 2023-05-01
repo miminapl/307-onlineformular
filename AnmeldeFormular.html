@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anmelde-Formular</title>
-</head>
-<body>
-    <h2>Anmelde-Formular</h2>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <h2>Anmelde-Formular</h2>
     <p><b>Vortrag zu Thema xxxxx</b></p>
     <p>Foto zum Thema<br>
        Details zum Vortrag<br>
@@ -15,8 +22,51 @@
        Zeit und Ort<br>
     </p>
     <form>
-      <!-- TODO -->
-    </form>
-    
-</body>
+      <!-TODO ->
+    </form> -->
+
+    <nav>
+      <div class="BurgermenuContainer">
+        <img id="BurgerMenu" src="media/menu-burger.svg" alt="menu_icon" />
+      </div>
+      <div class="TitleNav">
+        <h1>Volksschule Kanton St.Gallen</h1>
+      </div>
+      <div class="LogoContainer">
+        <img
+          id="Logo"
+          src="media/Coat_of_arms_of_canton_of_St._Gallen.svg"
+          alt="logo_coat_of_arms_of_St._Gallen"
+        />
+      </div>
+    </nav>
+    <article>
+      <div class="ZurueckButtonContainer">
+        <form>
+          <input
+            class="BackButton"
+            type="button"
+            value="zurück"
+            onclick="history.back()"
+          />
+        </form>
+      </div>
+      <div class="LoginContainer">
+        <div class="FormContainer">
+          <h2>Anmelde-Formular</h2>
+          <h3>Vortrag zum Thema:</h3>
+          <div class="InputContainer"></div>
+        </div>
+      </div>
+    </article>
+    <hr />
+    <footer>
+      <p class="FooterText">
+        <strong
+          >Modul 307 <br />
+          Interaktive Webseite mit Formular erstellen</strong
+        ><br />Joëlle Contreras, Michelle Plüer & Rahel Knüsel
+      </p>
+    </footer>
+  </body>
 </html>
