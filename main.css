@@ -57,7 +57,7 @@ h1{
 }
 h2{
     margin-left: 0.8rem;
-    font-size: 5rem;
+    font-size: 4.5rem;
     color:#193D61;
     padding-bottom: 2rem;
     box-sizing: border-box;
@@ -117,7 +117,7 @@ input:focus{
    
 }
 .IllustrationContainer img{
-    width: 80%;
+    width: 90%;
 }
 .BurgermenuContainer, .LogoContainer{
     width:16.66%;
