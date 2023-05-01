@@ -9,6 +9,7 @@
         echo "<p>Hallo Peter</p>";
     }
     else {
-        echo "<h2>Benutzername oder Passwort ungültig!</h2>";
+        echo "<h2>Falsches Passwort oder falscher Benutzername. 
+        Bitte versuchen Sie es nochmal.</h2>";
     }
 ?>  
