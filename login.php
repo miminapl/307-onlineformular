@@ -1,14 +1,22 @@
 <?php 
-    // echo "Passwort-Login Test!";
+if ($_SERVER['REQUEST_METHOD'] === 'POST'){
+    Login();
+}
 
+function Login()
+{
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    if ($username === 'peter.muster' && $password === '123') {
-        echo "<h2>Login erfolgreich!</h2>";
-        echo "<p>Hallo Peter</p>";
+    $internalPassword = "123";
+    $internalUser = "peter.muster";
+
+    if ($username === $internalUser && $password === $internalPassword) 
+    {
+        header("location: AnmeldeFormular.html");
     }
     else {
         echo "<h2>Benutzername oder Passwort ungültig!</h2>";
     }
+}
 ?>  
